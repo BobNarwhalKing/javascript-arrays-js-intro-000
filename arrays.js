@@ -3,6 +3,6 @@ function addElementToBeginningOfArray () {
   return ["twix", ...chocolateBars];
 }
 function destructivelyAddElementToBeginningOfArray () {
-  chocolateBars[twix] = twix
-  return chocolateBars
+  chocolateBars.unshift("twix");
+  return chocolateBars;
 }
